@@ -279,7 +279,7 @@
     margin: 0px auto;
 }
 .content{
-  background: url(/static/images/bg.jpg) 0% 0% / cover no-repeat;
+  background: url(../img/bg.jpg) 0% 0% / cover no-repeat;
 }
 .logo h1 a{
   font-size:3rem;
