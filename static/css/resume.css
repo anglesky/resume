@@ -1,0 +1,101 @@
+html,body{
+	font-size: 66.7%;
+	background: #f5f6f7;
+	display: table;
+}
+.nav{
+	width:80%;
+	padding: 10px 10%;
+	/*margin:0 auto;*/
+	display: table;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,.05);
+}
+.nav .logo{
+	float: left;
+}
+.nav .menu{
+	float: right;
+	
+}
+.nav .menu ul{
+	float: left;
+	width: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    list-style: none;
+}
+.nav .menu ul li{
+	display: inline;
+    font-size: 13px;
+    margin: 0;
+    padding: 0;
+    float: left;
+    line-height: 20px;
+    position: relative;
+}
+.nav .menu ul li a{
+	display: block;
+    color: #FFF;
+    padding: 12px 30px 12px 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #333333;
+    text-decoration: none;
+}
+.nav .logo a{
+	text-decoration: none;
+	color: #333333;
+}
+.nav h1{
+	margin: 0;
+}
+.nav .menu ul li.active a{
+	font-weight: bold;
+}
+
+
+.resume{
+	width:80%;
+	margin:0 auto;
+	margin-top: 20px;
+}
+.resume .base-info{
+	float: left;
+	width: 20%;
+	border:1px solid #DCDCDC;
+	padding: 10px;
+}
+.resume .main-info{
+	float: left;
+	width: 70%;
+	margin-left: 20px;
+}
+.resume .item .title{
+	font-size:1.5rem;
+	color:#333333;
+	text-align: left;
+}
+.resume .other-info p{
+	text-indent:2em;
+	text-align: left;
+}
+
+.resume .main-info .w-item{
+	margin: 15px 0;
+	text-align: left;
+}
+.resume .main-info .w-item .w-name{
+	font-weight: bold;
+}
+.divide{
+	border-top:1px dashed #DCDCDC;
+	margin: 20px 0;
+}
+.resume .main-info .skills{
+	text-align: left;
+}
+.resume .main-info .skills .s-item{
+	margin: 5px;
+}
